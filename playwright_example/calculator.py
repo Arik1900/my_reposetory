@@ -6,8 +6,4 @@ with sync_playwright() as playwright:
     page = browser.new_page()
     page.goto("https://www.calculator.net/")
 
-
-
-
-
     print(page.title())
